@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="android/app/src/main/res/drawable-nodpi/yingci_logo.png" width="144" alt="映词 Logo" />
+</p>
+
 # 映词 V3.1.1
 
 [下载 V3.1.1 build16 安装包](https://github.com/Jacky381897524/YingCi/releases/download/v3.1.1-build16/YingCi-v3.1.1-build16.apk) · [查看发布版本](https://github.com/Jacky381897524/YingCi/releases/tag/v3.1.1-build16)
@@ -5,6 +9,20 @@
 最低支持 Android 10。已有旧版请直接覆盖安装，不要卸载，以保留本机数据。
 
 原生 Android 提示词收藏与 AI 创作工具，最低 Android 10，面向 vivo X300 的竖屏和高刷新率使用设计。测试安装包输出：`output/YingCi-v3.1.1.apk`。
+
+## 界面预览
+
+以下为本地示例数据的界面渲染预览；实机液态玻璃的折射效果会有所不同。点击图片可查看原图。
+
+| 提示词收藏 | 提示词详情 | 风格反推 |
+| :---: | :---: | :---: |
+| [<img src="docs/screenshots/library.png" width="220" alt="提示词收藏界面" />](docs/screenshots/library.png) | [<img src="docs/screenshots/prompt-detail.png" width="220" alt="提示词详情界面" />](docs/screenshots/prompt-detail.png) | [<img src="docs/screenshots/style-reverse.png" width="220" alt="风格反推界面" />](docs/screenshots/style-reverse.png) |
+
+| AI 对话 | 生图参数 | 对话设定与记忆 |
+| :---: | :---: | :---: |
+| [<img src="docs/screenshots/chat.png" width="220" alt="AI 对话界面" />](docs/screenshots/chat.png) | [<img src="docs/screenshots/generation-parameters.png" width="220" alt="生图参数界面" />](docs/screenshots/generation-parameters.png) | [<img src="docs/screenshots/conversation-settings.png" width="220" alt="对话设定与记忆界面" />](docs/screenshots/conversation-settings.png) |
+
+## 更新记录
 
 V3.1.1（versionCode 16）：风格反推选取 1–3 个核心主题作为分析线索，按绘画、人物摄影及其他题材提取媒介、笔触、材质、色彩、光影与构图特征。生成的迁移提示词保留新照片内容并重新构图，避免复制参考图主体与空间结构。包含 build15 的智谱生图模型选择与请求修复；使用原签名，可覆盖安装。此次安装包另存为 `output/YingCi-v3.1.1-build16.apk`。
 
