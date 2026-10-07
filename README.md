@@ -1,5 +1,9 @@
 # 映词 V3.1.1
 
+[下载 V3.1.1 build16 安装包](https://github.com/Jacky381897524/YingCi/releases/download/v3.1.1-build16/YingCi-v3.1.1-build16.apk) · [查看发布版本](https://github.com/Jacky381897524/YingCi/releases/tag/v3.1.1-build16)
+
+最低支持 Android 10。已有旧版请直接覆盖安装，不要卸载，以保留本机数据。
+
 原生 Android 提示词收藏与 AI 创作工具，最低 Android 10，面向 vivo X300 的竖屏和高刷新率使用设计。测试安装包输出：`output/YingCi-v3.1.1.apk`。
 
 V3.1.1（versionCode 16）：风格反推选取 1–3 个核心主题作为分析线索，按绘画、人物摄影及其他题材提取媒介、笔触、材质、色彩、光影与构图特征。生成的迁移提示词保留新照片内容并重新构图，避免复制参考图主体与空间结构。包含 build15 的智谱生图模型选择与请求修复；使用原签名，可覆盖安装。此次安装包另存为 `output/YingCi-v3.1.1-build16.apk`。
