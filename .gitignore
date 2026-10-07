@@ -1,0 +1,9 @@
+.tools/
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/**/build/
+output/*.apk
+output/*.log
+output/*.zip
+output/github-release/

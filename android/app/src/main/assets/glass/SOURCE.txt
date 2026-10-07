@@ -1,0 +1,3 @@
+https://github.com/Oliverrr2424/webgl-apple-liquid-glass
+Commit: f84657b6ecd77248808515de4ce9ca7629d7aef8
+V2 shaders copied verbatim under MIT. Android host supplies layout, textures and uniforms.

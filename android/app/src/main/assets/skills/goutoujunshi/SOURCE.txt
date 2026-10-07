@@ -1,0 +1,6 @@
+Source: https://github.com/shengjidaguai-china/goutoujunshi
+Commit: 6db7354a4002dc7c448a9c87ffdad8132570c9d3
+License: MIT (see LICENSE)
+Vendored: SKILL.md and references only. No repository scripts are executed or shipped.
+Android adapter: GoutouSkill.kt. Current conversation only; no external app access,
+ChatLab tools, shell execution or cross-conversation profile storage.

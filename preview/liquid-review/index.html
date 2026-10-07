@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>映词 · V1.0.2 设计预览</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="phone" data-start="library" aria-label="映词交互预览">
+    <div id="status"><span>9:41</span><span class="signals"><i data-lucide="signal"></i><i data-lucide="wifi"></i><i data-lucide="battery-full"></i></span></div>
+    <header id="toolbar"></header>
+    <div id="scroller" tabindex="0"><div id="content"></div></div>
+    <canvas id="glass" aria-hidden="true"></canvas>
+    <div id="glass-controls"></div>
+    <nav id="nav" aria-label="主导航" data-shape data-radius="34">
+      <button data-tab="library" aria-label="收藏" title="收藏"><i data-lucide="bookmark"></i></button>
+      <button data-tab="reverse" aria-label="反推提示词" title="反推提示词"><i data-lucide="scan-text"></i></button>
+      <button data-tab="generate" aria-label="生图" title="生图"><i data-lucide="image-plus"></i></button>
+      <button data-tab="settings" aria-label="设置" title="设置"><i data-lucide="settings"></i></button>
+    </nav>
+    <div class="home-indicator"></div>
+    <div id="toast" role="status"></div>
+    <input id="photo-picker" type="file" accept="image/*" hidden>
+    <input id="generation-photo-picker" type="file" accept="image/*" hidden>
+    <div id="sheet-layer" hidden></div>
+  </main>
+  <aside class="preview-meta">映词 · 交互预览 <span>仅示例数据，不连接 API</span></aside>
+  <script src="assets.js"></script>
+  <script src="lucide.min.js"></script>
+  <script src="generation-state.js"></script>
+  <script src="generation.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
