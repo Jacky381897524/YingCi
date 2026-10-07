@@ -10,9 +10,22 @@
 
 原生 Android 提示词收藏与 AI 创作工具，最低 Android 10，面向 vivo X300 的竖屏和高刷新率使用设计。测试安装包输出：`output/YingCi-v3.1.1.apk`。
 
-## 界面预览
+## 液态玻璃视觉预览
 
-以下为本地示例数据的界面渲染预览；实机液态玻璃的折射效果会有所不同。点击图片可查看原图。
+以下为此前确认的视觉设计稿，展示半透明材质、边缘高光、背景折射与磨砂效果。设计稿的部分布局与当前版本不同，**不是 V3.1.1 的实机截图**。
+
+### 收藏、提示词详情与风格反推
+
+![映词液态玻璃视觉设计：收藏、提示词详情和风格反推](design/03-v2-liquid-library.png)
+
+### 外观、玻璃参数与模型连接
+
+![映词液态玻璃视觉设计：外观、玻璃参数和模型连接](design/04-v2-liquid-settings.png)
+
+<details>
+<summary>查看当前版本功能布局预览（本地测试回退渲染）</summary>
+
+下方截图只用于查看当前版本的控件和功能布局，使用本地示例数据；测试回退渲染不包含原生 GPU 的玻璃折射、高光效果。点击图片可查看原图。
 
 | 提示词收藏 | 提示词详情 | 风格反推 |
 | :---: | :---: | :---: |
@@ -21,6 +34,8 @@
 | AI 对话 | 生图参数 | 对话设定与记忆 |
 | :---: | :---: | :---: |
 | [<img src="docs/screenshots/chat.png" width="220" alt="AI 对话界面" />](docs/screenshots/chat.png) | [<img src="docs/screenshots/generation-parameters.png" width="220" alt="生图参数界面" />](docs/screenshots/generation-parameters.png) | [<img src="docs/screenshots/conversation-settings.png" width="220" alt="对话设定与记忆界面" />](docs/screenshots/conversation-settings.png) |
+
+</details>
 
 ## 更新记录
 
